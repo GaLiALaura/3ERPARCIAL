@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import ClasesDisponibles from './ClasesDisponibles/ClasesDisponibles'
+
+import ListaDeEjercicios from "./Ejercicios/ListaDeEjercicios"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ClasesDisponibles />
+    <ListaDeEjercicios />
+
   </React.StrictMode>,
 )
